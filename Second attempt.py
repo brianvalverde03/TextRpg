@@ -389,47 +389,6 @@ def move_player(move_dest):
     player1.location = move_dest
     print_location()
 
-#def examine():
- #   os.system('cls')
-  #  if room_seen[player1.location] == False:
-   #     print('\n' + (zone_map[player1.location][INFO]))
-    #    print((cube[player1.location][]))
-        #puzzle_answer = input('> ')
-        #checkpuzzle(puzzle_answer)#
-   # else:
-    #    print('There is nothing new for you to see here.')
-
-# def checkpuzzle(puzzle_answer):
- #   if player1.position == 'ground':
-  #      if player1.solves >= 5:
-   #         endspeech = (
-    #            "Without you having done anything, the key begins to rotate.\nIt begins to rain.\nAll of the sides of the box begin to crumble inwards.\nLight begins to shine through the cracks in the walls.\nA blinding flash of light hits you.\nYou have escaped!")
-     #       for character in endspeech:
-      #          sys.stdout.write(character)
-       #         sys.stdout.flush()
-        #        time.sleep(0.05)
-         #   print("\nCONGRATULATIONS!")
-          #  sys.exit()
-        #else:
-         #   print("Nothing seems to happen still...")
-   # elif player1.position == 'south':
-    #    if puzzle_answer == (player1.astrological):
-     #       room_solved[player1.position] = True
-      #      player1.solves += 1
-       #     print("You have solved the puzzle. Onwards!")
-        #    print("\nPuzzles solved: " + str(player1.solves))
-     #   else:
-      #      print("Wrong answer! Try again.\n~~~~~~~~~~~~~~~~~~~~~~~~~~")
-       #     examine()
-   # else:
-    #    if puzzle_answer == (cube[player1.position][SOLVED]):
-     #       room_solved[player1.position] = True
-      #      player1.solves += 1
-       #     print("You have solved the puzzle. Onwards!")
-        #    print("\nPuzzles solved: " + str(player1.solves))
-      #  else:
-       #     print("Wrong answer! Try again.\n~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        #    examine()
 
 def main_game_loop():
     total_bosses = 8
